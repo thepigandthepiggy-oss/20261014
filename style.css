@@ -1,0 +1,46 @@
+/* ============================================================
+   p5.js 指令選擇題測驗 - 網頁樣式
+   ============================================================ */
+
+/* 顏色變數（與 sketch.js 的 BACKGROUND_COLOR、TEXT_COLOR 保持一致） */
+:root {
+  --background-color: #f2e9e4;
+  --text-color: #3d405b;
+}
+
+/* 讓畫布填滿整個瀏覽器視窗，並禁止頁面捲動 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--background-color);
+
+  /* 避免手機長按或雙擊時選取文字 */
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family:
+    "LXGW WenKai TC",
+    "Iansui",
+    sans-serif;
+  color: var(--text-color);
+}
+
+/* 移除畫布下方因行內元素產生的空白 */
+canvas {
+  display: block;
+}
+
+/* 瀏覽器停用 JavaScript 時顯示的提示 */
+noscript {
+  display: block;
+  padding: 24px;
+  text-align: center;
+  font-size: 18px;
+}
