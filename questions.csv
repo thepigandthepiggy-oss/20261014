@@ -1,0 +1,16 @@
+id,question,optionA,optionB,optionC,optionD,answer
+1,在 p5.js 中哪一個函式會在程式開始時執行一次？,setup(),draw(),start(),begin(),A
+2,在 p5.js 中哪一個函式會持續重複執行？,loop(),repeat(),draw(),update(),C
+3,哪一個函式可以建立 p5.js 的畫布？,makeCanvas(),createCanvas(),newCanvas(),canvas(),B
+4,在 p5.js 中哪一個函式可以設定背景顏色？,background(),bgColor(),setBackground(),colorBackground(),A
+5,哪一個函式可以設定圖形的填色？,paint(),insideColor(),fill(),colorFill(),C
+6,哪一個函式可以設定線條或圖形外框的顏色？,border(),stroke(),outline(),lineColor(),B
+7,哪一個函式可以繪製橢圓形？,ellipse(),oval(),circleShape(),drawOval(),A
+8,哪一個函式可以繪製矩形？,square(),box(),rectangle(),rect(),D
+9,哪一個函式可以在兩個座標之間繪製直線？,line(),path(),segment(),drawLine(),A
+10,哪一個函式可以在畫布上顯示文字？,write(),label(),text(),showText(),C
+11,哪一個函式可以設定文字大小？,fontSize(),textSize(),sizeText(),文字大小(),B
+12,在 p5.js 中 mouseX 代表什麼？,滑鼠目前的水平座標,滑鼠目前的垂直座標,畫布的寬度,畫布的高度,A
+13,哪一個函式可以產生指定範圍內的隨機數？,random(),chance(),randomNumber(),rand(),A
+14,哪一個函式可以停用圖形外框線？,hideStroke(),strokeOff(),noStroke(),removeLine(),C
+15,哪一個函式可以設定動畫希望使用的影格率？,speed(),frameRate(),setFrame(),animationRate(),B
